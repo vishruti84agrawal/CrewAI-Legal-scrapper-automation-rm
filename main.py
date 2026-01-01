@@ -7,8 +7,6 @@ from dateutil.relativedelta import relativedelta
 os.environ["OTEL_SDK_DISABLED"] = "true"
 # Set your API Key BEFORE importing agents
 # Get free API key from: https://console.groq.com
-os.environ["OPENAI_API_KEY"] = "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"
-
 from crewai import Crew, Process, Task
 from agents import navigator, data_mapper, auditor
 import tasks
